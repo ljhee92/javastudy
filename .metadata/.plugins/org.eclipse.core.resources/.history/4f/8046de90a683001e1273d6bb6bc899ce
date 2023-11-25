@@ -1,0 +1,19 @@
+
+public class VarEx3 {
+
+	public static void main(String[] args) {
+		
+		int x = 4, y = 2;
+		int temp;	// 빈컵
+		
+		temp = x;
+		x = y;
+		y = temp;
+		
+		System.out.println(x);
+		System.out.println(y);
+
+		
+	}
+
+}
