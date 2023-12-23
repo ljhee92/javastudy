@@ -5,7 +5,6 @@ public class Main8 {
 
         int b = 0;
         int s = 0;
-
         // 같은 값이 있으면 b++, 같은 값이면서 위치도 같으면 s++, s와 b의 값을 출력
 
         /* arr1[0], arr2[0] 비교, arr1[0], arr2[1] 비교, arr1[0], arr2[2] 비교,
