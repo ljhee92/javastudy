@@ -13,16 +13,27 @@ public class Main8 {
         arr1[2], arr2[0] 비교, arr1[2], arr2[1] 비교, arr1[2], arr2[2] 비교
          */
 
-        for (int i = 0; i <= 2; i++) {
-            for (int j = 0; j <= 2; j++) {
+//        for (int i = 0; i < arr1.length; i++) {
+//            for (int j = 0; j < arr2.length; j++) {
+//                if (arr1[i] == arr2[j]) {
+//                    b++;
+//                }
+//                if (arr1[i] == arr2[j] && i==j) {
+//                    s++;
+//                }
+//            }
+//        } System.out.println("b = " + b);
+//        System.out.println("s = " + s);
+
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr2.length; j++) {
                 if (arr1[i] == arr2[j]) {
-                    b++;
-                }
-                if (arr1[i] == arr2[j] && i==j) {
-                    s++;
+                    if (i == j) {
+                        s++;
+                    } else b++;
                 }
             }
-        } System.out.println(b);
-        System.out.println(s);
+        }
+        System.out.println("s = " + s + ", b = " + b);
     }
 }
